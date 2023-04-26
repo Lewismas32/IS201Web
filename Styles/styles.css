@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000000;
+    margin:5%;
+}
+
+a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#c0bfbf;
+} 
+
+img{
+    width: 32%;
+}
+
+.heading {
+    font-weight: bold;
+    font-style: normal;
+}
+
+p {
+   text-align: center; 
+}
+
+.homebg {
+    background-image: url(../Images/Background_White_Triangles.jpg);
+    background-position: top right; 
+}
+
+.areas {
+    padding:10px
+}
+
+ol {
+    list-style-position:outside;
+}
+
+.common{
+    position: absolute
+}
+.header {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 115px;
+    background-color: #424242;
+    color:#ffffff;
+    z-index: 2;
+    font-size: larger;
+}
+.menu {
+    top: 115px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    background-color:black;
+    color: #ffffff;
+    float:right;
+    z-index: 1;
+    padding-top: 30px;
+    font-size: large;
+    
+
+}
+
+.mainbody {
+    top: 160px
+}
+
+.subheader {
+    float:left
+}
+
+.bodylinks {
+    color: #424242;
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
